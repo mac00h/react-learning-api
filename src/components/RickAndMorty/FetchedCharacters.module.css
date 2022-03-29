@@ -1,0 +1,36 @@
+.fetched-characters-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.small-version-image-wrapper {
+  width: 70px;
+  height: 70px;
+  border: 1px solid var(--blue0);
+  border-radius: 15px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.small-version-image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.fetched-title {
+  display: flex;
+  align-items: baseline;
+  gap: 25px;
+}
+
+.fetched-title h4 {
+  cursor: pointer;
+  border-bottom: 1px solid var(--blue0);
+  color: var(--blue0);
+}
+
+.fetched-title h4:hover {
+  color: yellowgreen;
+  border-bottom: 1px solid yellowgreen;
+}
