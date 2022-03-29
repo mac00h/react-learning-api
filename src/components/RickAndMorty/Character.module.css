@@ -1,0 +1,46 @@
+.character-wrapper {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.character-picture-wrapper {
+  width: 120px;
+  height: 120px;
+  border: 1px solid var(--blue0);
+  border-radius: 15px;
+  padding: 3px;
+}
+
+.undefined-character-picture-wrapper {
+  width: 120px;
+  height: 120px;
+  border: 1px dashed var(--blue0);
+  border-radius: 15px;
+  padding: 3px;
+}
+
+.character-picture {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.character-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.character-info {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0 10px;
+}
+
+.character-specific-info {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
